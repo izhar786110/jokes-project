@@ -1,0 +1,16 @@
+
+#wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,#BBE1EC, #A8ACAD ,#7C8DB5, #BBE1EC)
+}
+
+#heading{
+    background: linear-gradient(to right, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2rem
+}
+button{
+    cursor: pointer;
+}

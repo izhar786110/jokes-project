@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAD JOKES</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="flex justify-center items-center">
+      <div
+        class="container p-8 border-1 w-[95%] h-[] m-auto bg-[#4898E7] rounded-lg flex flex-col justify-center items-center gap-6"
+      >
+        <h1
+          id="heading"
+          class="font-bold border border-1 border-white p-4 rounded-md"
+        >
+          Dad Joke Generator
+        </h1>
+        <!--! joke container -->
+        <div
+          class="joke-container w-sm h-20 bg-amber-100 rounded-md flex justify-center items-center text-center font-semibold"
+        >
+          <p>Click the button to see a joke...</p>
+        </div>
+        <button class="bg-green-400 p-2 rounded-lg font-semibold hover:bg-green-600 ">
+          TELL ME A JOKE
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- npx @tailwindcss/cli -i ./input.css -o ./output.css --watch -->
